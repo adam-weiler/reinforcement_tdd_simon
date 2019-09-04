@@ -12,13 +12,13 @@ test('echo bye', () => {
   expect(echo('bye')).toEqual('bye');
 });
 
-// test('shout hello', () => {
-//   expect(shout('hello')).toEqual('HELLO');
-// });
+test('shout hello', () => {
+  expect(shout('hello')).toEqual('HELLO');
+});
 
-// test('shout multiple words', () => {
-//   expect(shout('hello world')).toEqual('HELLO WORLD');
-// });
+test('shout multiple words', () => {
+  expect(shout('hello world')).toEqual('HELLO WORLD');
+});
 
 // test('repeat', () => {
 //   expect(repeat('hello', 3)).toEqual('hello hello hello');

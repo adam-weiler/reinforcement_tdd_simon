@@ -2,8 +2,8 @@ const echo = (word) => {
     return word;
 }
 
-const shout = () => {
-    
+const shout = (phrase) => {
+    return phrase.toUpperCase();
 }
 
 const repeat = () => {
