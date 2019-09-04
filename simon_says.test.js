@@ -20,9 +20,9 @@ test('shout multiple words', () => {
   expect(shout('hello world')).toEqual('HELLO WORLD');
 });
 
-// test('repeat', () => {
-//   expect(repeat('hello', 3)).toEqual('hello hello hello');
-// });
+test('repeat', () => {
+  expect(repeat('hello', 3)).toEqual('hello hello hello');
+});
 
 test('start of word returns first letter', () => {
   expect(startOfWord('hello', 1)).toEqual('h');

@@ -2,16 +2,12 @@ const echo = (word) => {
     return word;
 }
 
-const shout = (phrase) => {
-    return phrase.toUpperCase();
+const shout = (word) => {
+    return word.toUpperCase();
 }
 
 const repeat = (word, count) => {
-//     repeatedWord = '';
-//     for (let x = 0; x < count; x++) {
-//         repeatedWord += `${word} `; 
-//     }
-//     return repeatedWord;
+    return `${word} `.repeat(count - 1) + word;
 }
 
 const startOfWord = (word, letters) => {
