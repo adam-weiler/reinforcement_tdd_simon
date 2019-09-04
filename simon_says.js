@@ -6,12 +6,16 @@ const shout = (phrase) => {
     return phrase.toUpperCase();
 }
 
-const repeat = () => {
-    
+const repeat = (word, count) => {
+//     repeatedWord = '';
+//     for (let x = 0; x < count; x++) {
+//         repeatedWord += `${word} `; 
+//     }
+//     return repeatedWord;
 }
 
-const startOfWord = () => {
-    
+const startOfWord = (word, letters) => {
+    return word.substring(0, letters);
 }
 
 const firstWord = () => {
