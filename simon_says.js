@@ -18,10 +18,8 @@ const startOfWord = (word, letters) => {
     return word.substring(0, letters);
 }
 
-const firstWord = () => {
-    
+const firstWord = (word) => {
+    return word.split(' ')[0];
 }
-
-
 
 module.exports = {echo: echo, shout: shout, repeat: repeat, startOfWord: startOfWord, firstWord: firstWord};

@@ -32,7 +32,7 @@ test('start of word returns first two letters', () => {
   expect(startOfWord('Bob', 2)).toEqual('Bo');
 });
 
-// test('first word', () => {
-//   expect(firstWord('Hello World')).toEqual('Hello');
-// });
+test('first word', () => {
+  expect(firstWord('Hello World')).toEqual('Hello');
+});
 
